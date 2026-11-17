@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9E5DB" />
+      <stop offset="100%" stop-color="#D8D2C2" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)" />
+  <rect x="18" y="18" width="764" height="764" rx="12" fill="none" stroke="#5F6B57" stroke-opacity="0.35" stroke-width="1" />
+  <path d="M 38 762 L 38 140 A 362 362 0 0 1 762 140 L 762 762 Z" fill="none" stroke="#5F6B57" stroke-opacity="0.28" stroke-width="1.2" />
+  
+    <g opacity="0.26" stroke="#5F6B57" fill="none" stroke-width="1.3">
+      <path d="M 280 760 Q 340 630 390 550" />
+      <path d="M 335 670 Q 295 645 280 675 Q 310 690 335 670 Z" fill="#5F6B57" fill-opacity="0.12" />
+      <path d="M 358 625 Q 395 595 405 630 Q 375 645 358 625 Z" fill="#5F6B57" fill-opacity="0.12" />
+      <path d="M 520 760 Q 460 630 410 550" />
+      <path d="M 465 670 Q 505 645 520 675 Q 490 690 465 670 Z" fill="#5F6B57" fill-opacity="0.12" />
+    </g>
+  
+  <g opacity="0.28" stroke="#5F6B57" fill="none" stroke-width="1.4">
+           <circle cx="382" cy="385" r="44" />
+           <circle cx="418" cy="385" r="44" />
+         </g>
+  <text x="400" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="3" fill="#5F6B57">MOMENT 02</text>
+  <text x="400" y="554" text-anchor="middle" font-family="sans-serif" font-size="11" letter-spacing="2.5" fill="#5F6B57" fill-opacity="0.75">PREWEDDING</text>
+</svg>
