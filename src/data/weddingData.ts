@@ -48,8 +48,6 @@ export const weddingData = {
     groom: {
       fullName: 'Muhammad Rifal Alfarizy',
       nickName: 'Rifal',
-      childOrder: 'Putra Pertama dari',
-      parents: 'Bapak H. Ahmad Alfarizy & Ibu Hj. Siti Aminah',
       instagram: 'https://instagram.com/',
       instagramHandle: '@rifalalfarizy',
       photo: '/images/foto-4.jpg',
@@ -57,8 +55,6 @@ export const weddingData = {
     bride: {
       fullName: 'Rahmdhani Dw Astuti',
       nickName: 'Asti',
-      childOrder: 'Putri Kedua dari',
-      parents: 'Bapak H. Budi Santoso & Ibu Hj. Nurhayati',
       instagram: 'https://instagram.com/',
       instagramHandle: '@rahmdhani.dwastuti',
       photo: '/images/foto-3.jpg',

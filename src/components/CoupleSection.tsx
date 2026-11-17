@@ -6,8 +6,6 @@ import { OrnamentDivider } from './OrnamentDivider';
 interface PersonCardProps {
   roleLabel: string;
   fullName: string;
-  childOrder: string;
-  parents: string;
   photo: string;
   instagram: string;
   instagramHandle: string;
@@ -17,8 +15,6 @@ interface PersonCardProps {
 function PersonCard({
   roleLabel,
   fullName,
-  childOrder,
-  parents,
   photo,
   instagram,
   instagramHandle,
@@ -52,9 +48,6 @@ function PersonCard({
       <h3 className="mt-2 font-serif text-3xl font-semibold text-[#2C2623] sm:text-4xl">
         {fullName}
       </h3>
-
-      <p className="mt-3 text-xs text-[#6D635B]">{childOrder}</p>
-      <p className="mt-0.5 max-w-xs text-sm font-medium text-[#2C2623]/90">{parents}</p>
 
       <motion.a
         href={instagram}
@@ -90,7 +83,7 @@ export function CoupleSection() {
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-[#6D635B]">
             Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan
-            pernikahan putra-putri kami:
+            acara pernikahan kami:
           </p>
           <OrnamentDivider className="mt-6" />
         </motion.div>
@@ -99,8 +92,6 @@ export function CoupleSection() {
           <PersonCard
             roleLabel="Mempelai Pria"
             fullName={groom.fullName}
-            childOrder={groom.childOrder}
-            parents={groom.parents}
             photo={groom.photo}
             instagram={groom.instagram}
             instagramHandle={groom.instagramHandle}
@@ -125,8 +116,6 @@ export function CoupleSection() {
           <PersonCard
             roleLabel="Mempelai Wanita"
             fullName={bride.fullName}
-            childOrder={bride.childOrder}
-            parents={bride.parents}
             photo={bride.photo}
             instagram={bride.instagram}
             instagramHandle={bride.instagramHandle}
